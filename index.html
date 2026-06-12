@@ -4,10 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Namitha Guruprasad</title>
-  <meta name="description" content="Namitha Guruprasad — PhD student. Research in [your area]." />
+  <meta name="description" content="Namitha Guruprasad — Ph.D. student in ECE at Johns Hopkins University. Research in 3D/2D computer vision: camera-agnostic feed-forward reconstruction, tracking, and perception in the wild." />
+  <meta property="og:title" content="Namitha Guruprasad" />
+  <meta property="og:description" content="Ph.D. student in ECE at Johns Hopkins University — 3D/2D computer vision, physics + deep learning for perception in the wild." />
+  <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -15,65 +18,267 @@
     <!-- ========== HEADER ========== -->
     <header class="hero">
       <div class="hero-photo">
-        <!-- Replace headshot.jpg with your photo (square works best). Until then, this shows your initials. -->
         <img src="headshot.jpg" alt="Namitha Guruprasad" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
         <div class="hero-photo-fallback">NG</div>
       </div>
       <div class="hero-text">
         <h1>Namitha Guruprasad</h1>
-        <p class="tagline">PhD Student in <span class="hl">[Your Field]</span> at <span class="hl">[Your University]</span></p>
-        <p class="affil">[Your Lab / Group] · Advised by [Advisor Name]</p>
+        <p class="tagline">Ph.D. Student, Electrical &amp; Computer Engineering</p>
+        <p class="affil">Johns Hopkins University · AIEM Lab · advised by Prof. <a href="https://engineering.jhu.edu/faculty/rama-chellappa/">Rama Chellappa</a></p>
+        <p class="motto">Passionate about pixels — and the way a point in the real world meets light and lands on the projection plane.</p>
         <nav class="links">
-          <a href="mailto:gnam.theoffice@gmail.com">Email</a>
-          <a href="#" title="Add your Google Scholar URL">Scholar</a>
+          <a href="mailto:ngurupr1@jh.edu">Email</a>
+          <a href="https://scholar.google.com/citations?user=baHP-noAAAAJ&hl=en">Scholar</a>
           <a href="https://github.com/nam1410">GitHub</a>
-          <a href="#" title="Add your LinkedIn URL">LinkedIn</a>
-          <a href="cv.pdf">CV</a>
+          <a href="https://www.linkedin.com/in/namitha-guruprasad/">LinkedIn</a>
+          <a href="https://x.com/gnam1410">X</a>
         </nav>
       </div>
     </header>
 
     <!-- ========== ABOUT ========== -->
     <section id="about">
-      <h2>About</h2>
       <p>
-        I am a PhD student at [Your University], where I work on
-        <strong>[your research area — e.g., computer vision and 3D scene
-        understanding]</strong>. My research focuses on [one sentence on the
-        problem you care about and why it matters].
+        I am a Ph.D. student in Electrical &amp; Computer Engineering at
+        <strong>Johns Hopkins University</strong>, where I work in the
+        <strong>AIEM Lab</strong> with Bloomberg Distinguished Professor
+        <a href="https://engineering.jhu.edu/faculty/rama-chellappa/">Rama Chellappa</a>.
+        My research lives at the intersection of <strong>physics and deep learning</strong>
+        for 3D/2D computer vision: I build <strong>camera-agnostic, feed-forward
+        multi-view reconstruction</strong> that holds up across varying altitude, diverse
+        camera models, lens distortions, and changing appearance and seasons — in short,
+        perception that works in the wild.
       </p>
+      <p>
+        My current work is a camera-agnostic feed-forward reconstruction module
+        (<a href="https://arxiv.org/abs/2603.22631">CAM3R</a>), supported by the IARPA
+        <a href="https://www.iarpa.gov/research-programs/wriva">WRIVA</a> program, alongside
+        dynamic object and people tracking under the IARPA
+        <a href="https://www.iarpa.gov/research-programs/video-lincs">VideoLINCS</a> program.
+        Lately I have been bringing <strong>agentic AI</strong> into both my research and my
+        project infrastructure to make these pipelines more tangible and natural to use.
+        I am drawn to applications in autonomy, surveillance, and robotics, 2D perception
+        in the wild, and healthcare.
+      </p>
+      <p>
+        While much of the field chases Gaussian splatting and diffusion rendering, I focus on
+        the <em>fundamentals</em> — camera projection models, extreme altitude variation, and
+        occlusion-heavy tracking — because that is what makes 3D/4D perception robust enough
+        to matter. Imagine turning everyday Insta360 and GoPro footage into a faithful 3D or
+        4D model.
+      </p>
+      <p class="collab">
+        I collaborate closely with Prof. <a href="https://www.cs.virginia.edu/~ssj3rb/">Cheng Peng</a> (UVA),
+        Prof. <a href="https://anandbhattad.github.io/">Anand Bhattad</a> (JHU),
+        Dr. Abhay Yadav (JHU), and Chandrakanth Gudavalli (Mayachitra).
+      </p>
+
       <p class="callout">
-        <strong>I am seeking a Summer 2026 research internship</strong> in [area].
-        If you think there may be a fit, I'd love to chat — please
-        <a href="mailto:gnam.theoffice@gmail.com">reach out</a>.
+        <strong>I am seeking research internships for Fall 2026 and Summer 2027</strong>
+        in computer vision and 3D perception. If there may be a fit, I would love to chat —
+        <a href="mailto:ngurupr1@jh.edu">email me</a>.
+      </p>
+      <p class="callout recruit">
+        📢 I am also looking for motivated students, researchers, and collaborators for
+        projects. If you are interested, please <a href="mailto:ngurupr1@jh.edu">email me</a>
+        your CV and a brief summary of your background.
       </p>
     </section>
 
     <!-- ========== NEWS ========== -->
     <section id="news">
       <h2>News</h2>
-      <ul class="news-list">
-        <li><span class="date">Jun 2026</span> Attended <strong>CVPR 2026</strong> — happy to connect!</li>
-        <li><span class="date">[Date]</span> [Add a recent update — a paper, award, talk, or milestone.]</li>
-      </ul>
+      <div class="news-scroll">
+        <ul class="news-list">
+          <li><span class="date">Jun 2026</span> Attended <strong>CVPR 2026</strong> in person in Denver, USA — happy to connect!</li>
+          <li><span class="date">Jul 2025</span> Patent <em>System and Method for Image Analysis and Summarization</em> (No. 201941033734) <strong>granted</strong> by the <a href="https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus">Indian Patent Office</a>.</li>
+          <li><span class="date">Nov 2024</span> Paper accepted in the <em>Journal of Crohn's and Colitis</em>: “Serum metabolites relate to mucosal and transmural inflammation in paediatric Crohn disease.”</li>
+          <li><span class="date">Jun 2024</span> Started a new chapter in the <strong>AIEM Lab</strong> under Prof. Rama Chellappa.</li>
+          <li><span class="date">Jan 2024</span> Joined <strong>Johns Hopkins University</strong> for my Ph.D. with an ECE Departmental Fellowship.</li>
+          <li><span class="date">Dec 2023</span> Attended <a href="https://ieeebibm.org/">IEEE BIBM 2023</a> in Istanbul, Turkey and presented “A Closer Look at Weak Supervision's Limitations in WSI Recurrence Score Prediction.”</li>
+          <li><span class="date">Oct 2023</span> Paper accepted at <a href="https://ieeebibm.org/">IEEE BIBM 2023</a>.</li>
+          <li><span class="date">Sep 2023</span> Defended my M.Sc. thesis (advisors Dr. <a href="https://webdocs.cs.ualberta.ca/~nray1/">Nilanjan Ray</a> and Dr. <a href="https://apps.ualberta.ca/directory/person/bigras">Gilbert Bigras</a>, Cross Cancer Institute).</li>
+          <li><span class="date">Mar 2023</span> Paper accepted in the <em>Journal of the Canadian Association of Gastroenterology</em>.</li>
+          <li><span class="date">Feb 2023</span> Received Ph.D. admission offer from Johns Hopkins University.</li>
+          <li><span class="date">Jan 2021</span> Joined the <strong>University of Alberta</strong> for my M.Sc. in Computing Science (deferred due to COVID-19 border restrictions).</li>
+          <li><span class="date">Oct 2020</span> Received my B.E. from VTU (State Rank 7, Karnataka), advised by Dr. <a href="https://www.linkedin.com/in/sejal-nimbhorkar/">Sejal Nimbhorkar</a>.</li>
+          <li><span class="date">Feb 2020</span> M.Sc. thesis-based admission offer (fully funded + stipend) from the University of Alberta.</li>
+          <li><span class="date">Feb 2020</span> <a href="https://www.fkcci.org/">FKCCI</a> Manthan business-plan finalist — “Emotion Recognition for CCTV Surveillance and Video Summarization.”</li>
+          <li><span class="date">Oct 2019</span> Attended <a href="https://www.ieeer10.org/">IEEE TENCON 2019</a> in Kochi, India and presented “Action-based Video Summarization.”</li>
+          <li><span class="date">Aug 2019</span> Patent filed (No. 201941033734) at the Indian Patent Office.</li>
+          <li><span class="date">Aug 2019</span> Paper accepted at IEEE TENCON 2019.</li>
+          <li><span class="date">Aug 2019</span> <a href="https://sih.gov.in/">Smart India Hackathon</a> finalist — “Emotion Recognition for CCTV Surveillance and Video Summarization.”</li>
+          <li><span class="date">Jun 2019</span> Data Science Intern at <a href="https://visiondigitalindia.com/">Vision Digital India</a>.</li>
+        </ul>
+      </div>
     </section>
 
     <!-- ========== PUBLICATIONS ========== -->
     <section id="publications">
-      <h2>Publications</h2>
+      <h2>Selected Publications</h2>
+
       <article class="pub">
-        <div class="pub-thumb">[img]</div>
+        <a class="pub-thumb" href="https://arxiv.org/abs/2603.22631"><img src="assets/thumb-cam3r.png" alt="CAM3R thumbnail" /></a>
         <div class="pub-body">
-          <p class="pub-title">[Paper Title Goes Here]</p>
-          <p class="pub-authors"><strong>Namitha Guruprasad</strong>, Coauthor A, Coauthor B</p>
-          <p class="pub-venue">[Venue, Year]</p>
-          <p class="pub-actions">
-            <a href="#">PDF</a> · <a href="#">Code</a> · <a href="#">Project Page</a>
-          </p>
+          <p class="pub-title"><a href="https://arxiv.org/abs/2603.22631">CAM3R: Camera-Agnostic Model for 3D Reconstruction</a></p>
+          <p class="pub-authors"><strong>Namitha Guruprasad</strong>, Abhay Yadav, Cheng Peng, Rama Chellappa</p>
+          <p class="pub-venue">Under review, 2026</p>
+          <p class="pub-actions"><a href="https://arxiv.org/abs/2603.22631">arXiv</a></p>
         </div>
       </article>
-      <p class="muted">More publications coming soon. (Replace this block with your real papers.)</p>
+
+      <article class="pub">
+        <a class="pub-thumb" href="https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=A%20Closer%20Look%20at%20Weak%20Supervision%20WSI%20Recurrence%20Score"><img src="assets/thumb-wsi.png" alt="WSI paper thumbnail" /></a>
+        <div class="pub-body">
+          <p class="pub-title"><a href="https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=A%20Closer%20Look%20at%20Weak%20Supervision%20WSI%20Recurrence%20Score">A Closer Look at Weak Supervision's Limitations in WSI Recurrence Score Prediction</a></p>
+          <p class="pub-authors"><strong>Namitha Guruprasad</strong>, Amir Akbarnejad, Gilbert Bigras, Penny J. Barnes, Nilanjan Ray</p>
+          <p class="pub-venue">IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2023</p>
+          <p class="pub-actions"><a href="https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=A%20Closer%20Look%20at%20Weak%20Supervision%20WSI%20Recurrence%20Score">IEEE</a> · <a href="https://github.com/nam1410/RS_prediction">Code</a></p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <a class="pub-thumb" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11532621/"><img src="assets/thumb-crohn-jcc.png" alt="Journal of Crohn's and Colitis paper thumbnail" /></a>
+        <div class="pub-body">
+          <p class="pub-title"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11532621/">Serum metabolites relate to mucosal and transmural inflammation in paediatric Crohn disease</a></p>
+          <p class="pub-authors">Ricardo G. Suarez, <strong>Namitha Guruprasad</strong>, Ganesh Tata, et al.</p>
+          <p class="pub-venue">Journal of Crohn's and Colitis, 18(11), 1832–1844, 2024</p>
+          <p class="pub-actions"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11532621/">PMC</a></p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <a class="pub-thumb" href="https://ieeexplore.ieee.org/document/8929597"><img src="assets/thumb-tencon.png" alt="TENCON paper thumbnail" /></a>
+        <div class="pub-body">
+          <p class="pub-title"><a href="https://ieeexplore.ieee.org/document/8929597">Action-based Video Summarization</a></p>
+          <p class="pub-authors">H. Raksha<sup>*</sup>, <strong>N. Guruprasad</strong><sup>*</sup>, N. Sejal</p>
+          <p class="pub-venue">IEEE Region 10 Conference (TENCON), 2019</p>
+          <p class="pub-actions"><a href="https://ieeexplore.ieee.org/document/8929597">IEEE</a></p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <a class="pub-thumb" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9991251/"><img src="assets/thumb-crohn-a164.png" alt="JCAG abstract thumbnail" /></a>
+        <div class="pub-body">
+          <p class="pub-title"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9991251/">Identifying the Most Important Predictors to Correlate Serum Metabolites with MRE Changes in Pediatric Crohn Disease (A164)</a></p>
+          <p class="pub-authors">R. G. Suarez, <strong>N. Guruprasad</strong>, G. Tata, et al.</p>
+          <p class="pub-venue">Journal of the Canadian Association of Gastroenterology, 6(S1), 2023</p>
+          <p class="pub-actions"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9991251/">PMC</a></p>
+        </div>
+      </article>
+
+      <p class="eqnote"><sup>*</sup> Equal contribution.</p>
     </section>
+
+    <!-- ========== PATENTS ========== -->
+    <section id="patents">
+      <h2>Patents</h2>
+      <article class="pub no-thumb">
+        <div class="pub-body">
+          <p class="pub-title"><a href="https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus">System and Method for Image Analysis and Summarization</a></p>
+          <p class="pub-authors">Ankitha Sudarshan<sup>*</sup>, <strong>Namitha Guruprasad</strong><sup>*</sup>, Raksha Harish<sup>*</sup>, N. Sejal · Assignee: BNM Institute of Technology</p>
+          <p class="pub-venue">Indian Patent No. 201941033734 · Filed 2019 · Granted 2025</p>
+          <p class="pub-actions"><a href="https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus">Registry</a></p>
+        </div>
+      </article>
+      <p class="eqnote"><sup>*</sup> Equal contribution.</p>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <article class="pub no-thumb">
+        <div class="pub-body">
+          <p class="pub-title"><a href="https://github.com/nam1410/ai-egd">Real-time Endoscopy Analysis</a></p>
+          <p class="pub-authors"><strong>Namitha Guruprasad</strong>, Omar Haque, Omar Farooq</p>
+          <p class="pub-actions"><a href="https://github.com/nam1410/ai-egd">Code</a></p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ========== TEACHING ========== -->
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <p class="ta-inst">Teaching Assistant, <strong>Johns Hopkins University</strong></p>
+      <ul class="plain">
+        <li>EN.520.650 Machine Intelligence — Spring 2025, Spring 2026</li>
+      </ul>
+      <p class="ta-inst">Teaching Assistant, <strong>University of Alberta</strong></p>
+      <ul class="plain">
+        <li>CMPUT 466/566 Introduction to Machine Learning — Fall 2022</li>
+        <li>CMPUT 366 Intelligent Systems — Fall 2021, Winter 2023</li>
+        <li>CMPUT 302 Human–Computer Interaction — Winter 2022</li>
+      </ul>
+    </section>
+
+    <!-- ========== EDUCATION ========== -->
+    <section id="education">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li><span class="yr">2024 – present</span> <strong>Ph.D., Electrical &amp; Computer Engineering</strong>, Johns Hopkins University <span class="muted">(M.S.E. en route)</span></li>
+        <li><span class="yr">2021 – 2023</span> <strong>M.Sc., Computing Science</strong>, University of Alberta</li>
+        <li><span class="yr">2016 – 2020</span> <strong>B.E., Computer Science</strong>, Visvesvaraya Technological University (BNMIT)</li>
+      </ul>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li><span class="yr">2024 – present</span> <strong>Graduate Research Assistant</strong>, Johns Hopkins University</li>
+        <li><span class="yr">2021 – 2023</span> <strong>Graduate Research Assistant</strong>, University of Alberta</li>
+        <li><span class="yr">2019</span> <strong>Data Science Intern</strong>, Vision Digital India</li>
+      </ul>
+    </section>
+
+    <!-- ========== HONORS ========== -->
+    <section id="honors">
+      <h2>Honors &amp; Awards</h2>
+      <ul class="timeline">
+        <li><span class="yr">2024</span> JHU ECE Departmental Fellowship</li>
+        <li><span class="yr">2021</span> University of Alberta — thesis-based tuition waiver &amp; stipend</li>
+        <li><span class="yr">2020</span> State Rank 7 (Karnataka), B.E., VTU</li>
+        <li><span class="yr">2020</span> FKCCI Manthan — top 5% business-plan proposal</li>
+        <li><span class="yr">2019</span> IEDC, Govt. of India grant (₹2,00,000) — Image Analysis &amp; Summarization</li>
+        <li><span class="yr">2019</span> IEDC, Govt. of India grant (₹2,00,000) — LifeLine ERV ambulance app</li>
+        <li><span class="yr">2019</span> Smart India Hackathon (Hardware) finalist — team lead, “The Neural Soldiers”</li>
+        <li><span class="yr">2016</span> State Rank 6 (Karnataka), Pre-University</li>
+      </ul>
+    </section>
+
+    <!-- ========== SMALL SECTIONS GRID ========== -->
+    <div class="mini-grid">
+      <section id="mentoring">
+        <h2>Mentoring</h2>
+        <ul class="plain">
+          <li>Alethea Nagahara — Undergraduate, USC</li>
+        </ul>
+      </section>
+
+      <section id="service">
+        <h2>Service</h2>
+        <p class="muted-label">Reviewer</p>
+        <ul class="plain">
+          <li>IEEE BIBM (conference)</li>
+          <li>International Journal of Computer Vision (IJCV)</li>
+        </ul>
+      </section>
+
+      <section id="languages">
+        <h2>Languages</h2>
+        <ul class="plain">
+          <li>English — native / bilingual</li>
+          <li>Kannada — native / bilingual</li>
+          <li>Hindi — full professional</li>
+          <li>French, Sanskrit, Spanish — elementary</li>
+        </ul>
+      </section>
+
+      <section id="tools">
+        <h2>Tools</h2>
+        <p class="tools-line">Python · C++ · PyTorch · Docker · Kubernetes · AWS · agentic-AI workflows</p>
+      </section>
+    </div>
 
     <!-- ========== FOOTER ========== -->
     <footer>
