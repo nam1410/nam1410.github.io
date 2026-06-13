@@ -104,13 +104,13 @@ section p { margin: 0 0 12px; }
 .collab { font-size: 15px; color: #333; }
 
 /* ===== News ===== */
-.news-box {
-  max-height: 320px; overflow-y: auto;
-  padding-right: 12px;
-}
-.news-box::-webkit-scrollbar { width: 8px; }
-.news-box::-webkit-scrollbar-thumb { background: #d8d8d2; border-radius: 6px; }
-.news-box::-webkit-scrollbar-track { background: transparent; }
+.news-box { max-height: 320px; }
+.scroll-box { max-height: 460px; }
+.scroll-box.short { max-height: 210px; }
+.news-box, .scroll-box { overflow-y: auto; padding-right: 12px; }
+.news-box::-webkit-scrollbar, .scroll-box::-webkit-scrollbar { width: 8px; }
+.news-box::-webkit-scrollbar-thumb, .scroll-box::-webkit-scrollbar-thumb { background: #d8d8d2; border-radius: 6px; }
+.news-box::-webkit-scrollbar-track, .scroll-box::-webkit-scrollbar-track { background: transparent; }
 .news-list { list-style: none; padding: 0; margin: 0; }
 .news-list li {
   padding: 6px 0;
@@ -154,8 +154,13 @@ section p { margin: 0 0 12px; }
 }
 .timeline li:last-child { border-bottom: none; }
 .timeline .yr {
-  flex: 0 0 96px; color: var(--muted);
+  flex: 0 0 92px; color: var(--muted);
   font-variant-numeric: tabular-nums; font-size: 13px;
+}
+.timeline .ti { flex: 1; min-width: 0; }
+.edu-logo {
+  width: 19px; height: 19px; vertical-align: -4px;
+  margin-right: 8px; border-radius: 3px; object-fit: contain;
 }
 .muted { color: var(--muted); font-weight: 400; }
 .muted-label { font-size: 12px; color: var(--muted); margin: 0 0 4px; text-transform: uppercase; letter-spacing: .05em; }
