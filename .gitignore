@@ -1,5 +1,6 @@
 # Source material kept locally but not published
 *.pdf
+!Namitha_Guruprasad_CV.pdf
 Languages.png
 Selected Honors & Awards.png
 .DS_Store
