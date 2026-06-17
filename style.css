@@ -227,6 +227,6 @@ footer {
 }
 
 /* ===== JHU logo below the announcement ===== */
-.jhu-badge { display: block; margin-top: 18px; line-height: 0; }
+.jhu-badge { display: block; margin-top: 18px; line-height: 0; text-align: center; }
 .jhu-badge img { width: 84px; height: auto; opacity: .9; }
 .jhu-badge:hover img { opacity: 1; }
